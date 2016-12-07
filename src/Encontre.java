@@ -2,9 +2,6 @@
  * Created by loraine on 01/12/16.
  */
 //imports para a leitura do txt
-import java.io.InputStream;
-import java.io.IOException;
-import java.io.FileInputStream;
 import java.io.*; /// assim eu coloco todas as classas do java.io
 
 //outros imports
@@ -12,7 +9,10 @@ import java.io.*; /// assim eu coloco todas as classas do java.io
 
 
 public class Encontre {
-
+ public static void encontra (String s){
+     String number=" 1";
+     System.out.print(number);
+ };
 
 
     public static void main(String [] args) throws IOException{
@@ -28,11 +28,15 @@ public class Encontre {
 
         while (s != null) {
             System.out.println(s);
+
+           encontra(s);
             s = br.readLine();
         }
 
         br.close();
     }
+
+    
 }
 
 
