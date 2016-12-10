@@ -1,5 +1,4 @@
 
-//imports para a leitura do txt
 import java.io.*; /// assim eu coloco todas as classas do java.io
 
 
